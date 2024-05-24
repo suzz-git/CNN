@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+body {
+  margin-top: 40px;
+}
+
+#link {
+  margin-top: 75px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#vertical-logo > img {
+  height: 500px;
+  width: 200px;
+}
+#opinion {
+  padding: 0px 5px;
+  border-radius: 5px;
+
+  position: absolute;
+  margin: 10px -300px;
+}
+
+/* media queries */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
